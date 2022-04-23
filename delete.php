@@ -38,7 +38,7 @@
             <div class="card-body">
             <?php
                 include 'koneksi.php';
-                $id=$_GET['id_205'];
+                $id=$_GET['id'];
 
                 $sql="DELETE FROM tbl_205 WHERE id_205=$id";
                 $hasil=mysqli_query($koneksi, $sql);
